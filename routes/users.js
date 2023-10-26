@@ -15,3 +15,4 @@ router.get('/', function(req, res, next) {
     sum += more;
     res.send(`Sum is: ${sum}`);
   });
+  module.exports = router;
